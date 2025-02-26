@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title_news": "Gempa M6,5 Guncang Garut, Jawa Barat",
+    "link_news": "https://www.kompas.com/tren/read/2024/04/27/223000565/gempa-m65-guncang-garut-jawa-barat",
+    "image_link": "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/291/2024/04/27/Screenshot_20240427_234453_Chrome_copy_700x465-2390765857.jpg"
+  },
+  {
+    "id": 2,
+    "title_news": "AS dan China Kembali Bersitegang soal Taiwan di Forum Keamanan",
+    "link_news": "https://www.cnnindonesia.com/internasional/20240531123136-106-1100342/as-china-kembali-bersitegang-soal-taiwan-di-forum-keamanan",
+    "image_link": "https://awsimages.detik.net.id/visual/2022/08/03/infografis-saat-china-tegang-karena-wanita-as-soal-taiwan-1_169.jpeg?w=480&q=90"
+  },
+  {
+    "id": 3,
+    "title_news": "Harga BBM Non-Subsidi Naik per 1 Juni 2024",
+    "link_news": "https://www.cnbcindonesia.com/news/20240601070509-4-542588/harga-bbm-non-subsidi-naik-per-1-juni-2024",
+    "image_link": "https://thumb.viva.id/vivawisata/665x374/2024/06/01/665a78f26e348-harga-bbm-pertamina-1-juni-2024_wisata.jpg"
+  },
+  {
+    "id": 4,
+    "title_news": "Update Perang Rusia-Ukraina: Zelenskyy Sebut Pasukan Rusia Coba Rebut Kharkiv",
+    "link_news": "https://www.liputan6.com/global/read/5607996/update-perang-rusia-ukraina-zelenskyy-sebut-pasukan-rusia-coba-rebut-kharkiv",
+    "image_link": "https://gdb.voanews.com/03370000-0aff-0242-1871-08dae2c0b701_w1200_r1.jpg"
+  },
+  {
+    "id": 5,
+    "title_news": "Timnas Indonesia Lolos ke Putaran Ketiga Kualifikasi Piala Dunia 2026",
+    "link_news": "https://www.kompas.id/baca/olahraga/2024/06/12/lolos-putaran-ketiga-seberapa-besar-peluang-timnas-indonesia-ke-piala-dunia-2026",
+    "image_link": "https://asset.kompas.com/crops/5upWS2PciX5JYNe8qizXB2s6oDc=/0x0:3675x2450/1200x800/data/photo/2024/06/11/66687d1527684.jpeg"
+  }
+]
