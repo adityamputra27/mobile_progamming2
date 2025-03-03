@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:p2/screens/conversion/massa_conversion_screen.dart';
+import 'package:p2/screens/conversion/measure_conversion_screen.dart';
+import 'package:p2/screens/conversion/temp_conversion_screen.dart';
+import 'package:p2/screens/conversion/wide_conversion_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -32,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
                 crossAxisCount: 2,
-                padding: const EdgeInsets.all(16),
+                padding: const EdgeInsets.all(8),
                 children: [
                   Container(
                     margin: const EdgeInsets.all(10),
@@ -43,7 +47,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         backgroundColor: Colors.white,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => TempConversionScreen(),
+                          ),
+                        );
+                      },
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -74,7 +85,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         backgroundColor: Colors.white,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => MassaConversionScreen(),
+                          ),
+                        );
+                      },
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -102,7 +120,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         backgroundColor: Colors.white,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => WideConversionScreen(),
+                          ),
+                        );
+                      },
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -130,7 +155,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         backgroundColor: Colors.white,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => MeasureConversionScreen(),
+                          ),
+                        );
+                      },
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
