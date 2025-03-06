@@ -22,6 +22,10 @@ class _DetailNewsScreenState extends State<DetailNewsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.black87,
+        iconTheme: IconThemeData(color: Colors.white),
+      ),
       backgroundColor: Colors.black87,
       body: Container(
         padding: const EdgeInsets.all(16),

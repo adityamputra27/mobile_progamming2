@@ -107,6 +107,10 @@ class _TellingScreenState extends State<TellingScreen> {
     } else if (ttsState == TtsState.paused ||
         ttsState == TtsState.stopped ||
         ttsState == TtsState.continued) {
+      await _flutterTts.setLanguage('id-ID');
+      await _flutterTts.setSpeechRate(0.5);
+      await _flutterTts.setPitch(1.0);
+      await _flutterTts.setVolume(1.0);
       await _flutterTts.speak(widget.story['story_text']);
       setState(() {
         ttsState = TtsState.playing;
