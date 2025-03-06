@@ -98,6 +98,12 @@ class _TellingScreenState extends State<TellingScreen> {
       setState(() {
         ttsState = TtsState.paused;
       });
+
+      Fluttertoast.showToast(
+        msg: "Audio Google Text to Speech sedang di pause",
+        toastLength: Toast.LENGTH_SHORT,
+        backgroundColor: Color(0xffFEC740).withAlpha(220),
+      );
     } else if (ttsState == TtsState.paused ||
         ttsState == TtsState.stopped ||
         ttsState == TtsState.continued) {
@@ -105,15 +111,13 @@ class _TellingScreenState extends State<TellingScreen> {
       setState(() {
         ttsState = TtsState.playing;
       });
+
+      Fluttertoast.showToast(
+        msg: "Audio Google Text to Speech digunakan",
+        toastLength: Toast.LENGTH_SHORT,
+        backgroundColor: Color(0xffFEC740).withAlpha(220),
+      );
     }
-
-    print(ttsState);
-
-    Fluttertoast.showToast(
-      msg: "Audio Google Text to Speech digunakan",
-      toastLength: Toast.LENGTH_SHORT,
-      backgroundColor: Color(0xffFEC740).withAlpha(220),
-    );
   }
 
   Future<void> _playStory() async {
