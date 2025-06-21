@@ -1,3 +1,7 @@
+<img width="1680" alt="Screenshot 2025-06-21 at 20 23 43" src="https://github.com/user-attachments/assets/3fd557ba-3626-4b54-afc0-da38dac23b9c" />
+<img width="1680" alt="Screenshot 2025-06-21 at 20 23 51" src="https://github.com/user-attachments/assets/7703f6cd-48b7-48d2-9459-c80d96949875" />
+<img width="1680" alt="Screenshot 2025-06-21 at 20 23 33" src="https://github.com/user-attachments/assets/abafda46-42ac-4f75-8c81-77fc2403bcd8" />
+
 # p7
 
 A new Flutter project.
