@@ -1,3 +1,5 @@
+<img width="1680" alt="Screenshot 2025-06-21 at 19 57 01" src="https://github.com/user-attachments/assets/a6bd353c-7f60-4d3d-a1d6-bf987aaeba3d" />
+
 # p6
 
 A new Flutter project.
